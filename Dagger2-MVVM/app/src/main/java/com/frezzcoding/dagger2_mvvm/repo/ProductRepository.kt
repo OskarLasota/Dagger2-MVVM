@@ -1,7 +1,9 @@
 package com.frezzcoding.dagger2_mvvm.repo
 
-import com.example.dagger2practice.models.Product
-import com.example.dagger2practice.utils.OperationCallBack
+
+import com.frezzcoding.dagger2_mvvm.ProductService
+import com.frezzcoding.dagger2_mvvm.models.Product
+import com.frezzcoding.dagger2_mvvm.utils.OperationCallBack
 import retrofit2.Call
 import retrofit2.Callback
 import retrofit2.Response

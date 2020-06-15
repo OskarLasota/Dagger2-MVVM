@@ -3,12 +3,14 @@ package com.frezzcoding.dagger2_mvvm.vm
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
-import com.example.dagger2practice.models.Product
-import com.example.dagger2practice.utils.OperationCallBack
+import com.frezzcoding.dagger2_mvvm.models.Product
+import com.frezzcoding.dagger2_mvvm.repo.ProductRepository
+import com.frezzcoding.dagger2_mvvm.utils.OperationCallBack
 import javax.inject.Inject
 
 class ProductsViewModel @Inject constructor(
-    var repository : ProductRepository) :
+    var repository : ProductRepository
+) :
     ViewModel() {
 
     private val _products = MutableLiveData<ArrayList<Product>>()

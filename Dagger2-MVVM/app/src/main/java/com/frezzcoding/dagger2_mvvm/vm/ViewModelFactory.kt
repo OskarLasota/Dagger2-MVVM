@@ -2,6 +2,7 @@ package com.frezzcoding.dagger2_mvvm.vm
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
+import com.frezzcoding.dagger2_mvvm.repo.ProductRepository
 import javax.inject.Inject
 import javax.inject.Provider
 
